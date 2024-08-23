@@ -81,8 +81,7 @@ The following are the default configurations:
 ```lua
 -- ~/.config/yazi/init.lua
 require("bookmarks"):setup({
-	save_last_directory = false, -- DEPRECATED - will be removed in the future. Use `last_directory`
-	last_directory = { enable = false, persist = false },
+	save_last_directory = false,
 	persist = "none",
 	desc_format = "full",
 	notify = {
@@ -101,15 +100,6 @@ require("bookmarks"):setup({
 
 When enabled, a new bookmark is automatically created in `'` which allows the user to jump back to
 the last directory.
-
-***NOTE:*** This option is **DEPRECATED** and will be removed in the future in favor of `last_directory`.
-
-### `last_directory`
-
-When enabled, a new bookmark is automatically created in `'` which allows the user to jump back to
-the last directory.
-
-There's also the option to enable persistence to this automatic bookmark.
 
 ### `persist`
 

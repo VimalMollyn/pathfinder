@@ -17,11 +17,11 @@ require("full-border"):setup {
 }
 
 require("bookmarks"):setup({
-	save_last_directory = true,
 	persist = "all",
 	desc_format = "full",
+	last_directory = { enable = true, persist = true },
 	notify = {
-		enable = false,
+		enable = true,
 		timeout = 1,
 		message = {
 			new = "New bookmark '<key>' -> '<folder>'",
@@ -30,3 +30,5 @@ require("bookmarks"):setup({
 		},
 	},
 })
+
+require("simple-status"):setup()
