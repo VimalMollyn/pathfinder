@@ -43,3 +43,13 @@ desc = "Delete all bookmarks"
 on   = [ "c", "m" ]
 run  = "plugin chmod"
 desc = "Chmod on selected files"
+
+[[manager.prepend_keymap]]
+on = ["p", "o"]
+run = "paste --force"
+desc = "Paste and overwrite existing files"
+
+[[manager.prepend_keymap]]
+on = ["p", "p"]
+run = "paste"
+desc = "Paste and overwrite existing files"
