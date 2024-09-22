@@ -1,5 +1,5 @@
 [plugin]
-deps = [{ use = "yazi-rs/plugins#full-border", commit = "ba2a7d7" }, { use = "dedukun/bookmarks", commit = "748efed" }, { use = "yazi-rs/plugins#chmod", commit = "ba2a7d7" }, { use = "Ape/simple-status", commit = "709f653" }]
+deps = [{ use = "yazi-rs/plugins#full-border", commit = "ba2a7d7" }, { use = "dedukun/bookmarks", commit = "748efed" }, { use = "yazi-rs/plugins#chmod", commit = "ba2a7d7" }, { use = "Ape/simple-status", commit = "709f653" }, { use = "pirafrank/what-size", commit = "f08f7f2" }]
 
 [flavor]
 deps = [{ use = "BennyOe/tokyo-night", commit = "024fb09" }]
