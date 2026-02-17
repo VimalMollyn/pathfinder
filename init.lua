@@ -39,9 +39,9 @@ require("bookmarks"):setup({
 	desc_format = "full",
 	file_pick_mode = "hover",
 	custom_desc_input = false,
-	show_keys = false,
+	show_keys = true,
 	notify = {
-		enable = false,
+		enable = true,
 		timeout = 1,
 		message = {
 			new = "New bookmark '<key>' -> '<folder>'",
