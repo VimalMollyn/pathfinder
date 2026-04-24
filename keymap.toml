@@ -54,3 +54,4 @@ desc = "Paste and overwrite existing files"
 on = ["p", "p"]
 run = "paste"
 desc = "Paste and overwrite existing files"
+

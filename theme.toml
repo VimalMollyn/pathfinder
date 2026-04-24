@@ -3,3 +3,15 @@ use = "tokyo-night"
 
 [which]
 cols = 1
+
+[mode]
+normal_main = { fg = "#ffffff", bg = "#7aa2f7", bold = true }
+normal_alt  = { fg = "#7aa2f7", bg = "reset" }
+select_main = { fg = "#ffffff", bg = "#9ece6a", bold = true }
+select_alt  = { fg = "#9ece6a", bg = "reset" }
+unset_main  = { fg = "#ffffff", bg = "#bb9af7", bold = true }
+unset_alt   = { fg = "#bb9af7", bg = "reset" }
+
+[status]
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
