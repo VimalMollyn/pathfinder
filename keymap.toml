@@ -55,3 +55,8 @@ on = ["p", "p"]
 run = "paste"
 desc = "Paste and overwrite existing files"
 
+
+[[mgr.prepend_keymap]]
+on   = "<D-Enter>"
+run  = 'shell --orphan -- open -R "$0"'
+desc = "Reveal hovered file in Finder"
